@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+<style>
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 26px;
+	padding-bottom: 15px;
+	background: linear-gradient(-45deg, 
+	rgba(0, 0, 0, 0.4), 
+	rgba(238, 119, 82, 0.4), 
+	rgba(231, 60, 126, 0.4), 
+	rgba(35, 166, 213, 0.4), 
+	rgba(35, 213, 171, 0.4));
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	color: #1D4B65;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.circular-square{
+	border-radius: 50%;
+	border: solid 7px rgba(255, 255, 255, 0.5);
+	width: 150px;
+	height: 150px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 0 10px 0;
+	width: 100%;
+	margin: 0px 10px 10px 0px;
+	float: left;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.tokopedia
+{
+	background-color: rgb(69, 182, 77);
+	border-bottom: 5px solid rgb(52, 146, 59);
+	text-shadow: 0px -2px rgb(69, 182, 77);
+}
+
+.whatsapp
+{
+	background-color: rgb(81, 211, 97);
+	border-bottom: 5px solid rgb(63, 163, 75);
+	text-shadow: 0px -2px rgb(81, 211, 97);
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.buttone{
+	height: 45px;
+}
+
+.footere{
+	position: fixed;
+	bottom: 2px;
+	left: 0px;
+	margin: auto;
+	height: 15px;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	color: #1D4B65;
+}
+</style>
+</head>
+<body>
+	<div align="center">
+		<img src="https://drive.google.com/uc?id=1BAc7uXAt-fykFjJFFo0jVHcKFgu127rb" class="circular-square"/><br/>
+		<h1>@tukang.belanjaa</h1>
+		Hobby Belanja<br/>
+		New but trusted 💯<br/>
+		Transaction only via Tokopedia<br/>
+		Shipping from Surabaya<br/>
+		<br/><br/>
+		<div class="buttone">
+			<a href="https://bit.ly/tokopedia-avaritia" class="action-button shadow animate tokopedia">Beli di Tokopedia!</a>
+		</div>
+		<div style="padding-bottom: 10px;">atau</div>
+		<div class="buttone">
+			<a href="https://bit.ly/hi-avaritia" class="action-button shadow animate whatsapp">Tanya via Whatsapp</a>
+		</div>
+	</div>
+	<div class="footere">Template by <a href="https://bit.ly/hi-arnold" style="text-decoration: none; font-weight: bold; color: #1D4B65;">Arnold Tanu</a></div>
+</body>
+</html>
